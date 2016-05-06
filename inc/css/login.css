@@ -1,0 +1,79 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700,900");
+@import url("http://fonts.googleapis.com/css?family=Roboto:400,700,900");
+
+body, * {
+  font-family: 'Open Sans';
+  font-size: 16px;
+}
+
+.btn-default {
+  background: linear-gradient(#fff, #f8f8f8);
+}
+
+.btn-primary {
+  background: linear-gradient(#ef4238, #ef4238);
+  border-color: #ef4238;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #3C2F4A;
+  border-color: #3C2F4A;
+  color: #fff;
+}
+
+.btn-primary:active, .btn-primary:focus {
+  color: #fff !important;
+  background: none !important;
+  background-color: #6D6E70 !important;
+  box-shadow: 0px 0px rgba(0, 0, 0, 0.3) inset !important;
+  outline: 0 none !important;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: #E6007E;
+  box-shadow: none;
+  outline: 0 none;
+}
+
+html.no-header body {
+  background-color: #241A2F;
+  background-attachment: fixed;
+  padding: 0;
+  box-shadow: none;
+}
+html.no-header body .panel-login {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 20px;
+  border-radius: 0px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+html.no-header body .panel-login > .panel-heading {
+  margin: 10px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 0px;
+  margin-bottom: 0;
+}
+html.no-header body .panel-login a {
+  color: #7C254A;
+}
+
+
