@@ -20,7 +20,7 @@ class Countpage extends MY_Controller {
 		//$data = $this->load->view( "myfile ',' ', true);
 	    
 	    $data['test'] = 'xyz';
-		$this->load->view('admin/include/header', $data);
+	    $this->load->view('admin/include/header', $data);
 	}
 
 
